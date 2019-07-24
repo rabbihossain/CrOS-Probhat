@@ -57,7 +57,7 @@ var lut = {
 "KeyL": { "plain": {"plain": "ল", "shifted": "ং"}, "alternate": {"plain": "", "shifted":""}, "code": "KeyZ"},
 "Semicolon": { "plain": {"plain": ";", "shifted": ":"}, "alternate": {"plain": "", "shifted":""}, "code": "Digit8"},
 "Quote": { "plain": {"plain": "'", "shifted": "\""}, "alternate": {"plain": "", "shifted":""}, "code": "Digit7"},
-"KeyZ": { "plain": {"plain": "", "shifted": "য"}, "alternate": {"plain": "", "shifted":""}, "code": "Quote"},
+"KeyZ": { "plain": {"plain": "য়", "shifted": "য"}, "alternate": {"plain": "", "shifted":""}, "code": "Quote"},
 "KeyX": { "plain": {"plain": "শ", "shifted": "ঢ়"}, "alternate": {"plain": "", "shifted":""}, "code": "KeyX"},
 "KeyC": { "plain": {"plain": "চ", "shifted": "ছ"}, "alternate": {"plain": "", "shifted":""}, "code": "KeyG"},
 "KeyV": { "plain": {"plain": "আ", "shifted": "ঋ"}, "alternate": {"plain": "", "shifted":""}, "code": "KeyV"},
