@@ -15,6 +15,6 @@ Installation
 Bugs & Limitations
 ---
 #
-1. You cant use this layout on Lockscreen or in Password fields.
-2. Cannot write র + ্য together. Because I don't know how to map ZWNJ in this layout configuration.
+1. You can't use this layout on Lockscreen or in Password fields.
+2. Cannot write র + ্য together. Because I don't know how to map ZWNJ in this layout configuration (I'll hopefully make a fix, once I figure this out).
 
