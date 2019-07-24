@@ -1,0 +1,26 @@
+{
+    "name": "Bangla - Probhat Layout",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Bangla Probhat layout implementation for Chrome OS IME",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "input"
+    ],
+    "input_components": [
+        {
+            "name": "Bangla - Probhat Layout",
+            "type": "ime",
+            "id": "dvorak_left",
+            "description": "Bangla Probhat layout implementation for Chrome OS IME",
+            "language": "bn",
+            "layouts": [
+                "us"
+            ]
+        }
+    ]
+}
