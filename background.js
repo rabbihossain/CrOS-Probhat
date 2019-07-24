@@ -21,13 +21,17 @@ var altGrState = AltGr.PLAIN;
 var shiftState = Shift.PLAIN;
 var lastRemappedKeyEvent = undefined;
 
+var zwnjEl = document.createElement('textarea');
+zwnjEl.innerHTML = "&zwnj;";
+zwnj = zwnjEl.value;
+
 var lut = {
 "Digit1": { "plain": {"plain": "১", "shifted": "!"}, "alternate": {"plain": "", "shifted":""}, "code": "BracketLeft"},
 "Digit2": { "plain": {"plain": "২", "shifted": "@"}, "alternate": {"plain": "", "shifted":""}, "code": "BracketRight"},
 "Digit3": { "plain": {"plain": "৩", "shifted": "#"}, "alternate": {"plain": "", "shifted":""}, "code": "Slash"},
 "Digit4": { "plain": {"plain": "৪", "shifted": "৳"}, "alternate": {"plain": "", "shifted":""}, "code": "KeyP"},
 "Digit5": { "plain": {"plain": "৫", "shifted": "%"}, "alternate": {"plain": "", "shifted":""}, "code": "KeyF"},
-"Digit6": { "plain": {"plain": "৬", "shifted": "^"}, "alternate": {"plain": "", "shifted":""}, "code": "KeyM"},
+"Digit6": { "plain": {"plain": "৬", "shifted": zwnj}, "alternate": {"plain": "", "shifted":""}, "code": "KeyM"},
 "Digit7": { "plain": {"plain": "৭", "shifted": "ঞ"}, "alternate": {"plain": "", "shifted":""}, "code": "KeyL"},
 "Digit8": { "plain": {"plain": "৮", "shifted": "ৎ"}, "alternate": {"plain": "", "shifted":""}, "code": "KeyJ"},
 "Digit9": { "plain": {"plain": "৯", "shifted": "("}, "alternate": {"plain": "", "shifted":""}, "code": "Digit4"},
