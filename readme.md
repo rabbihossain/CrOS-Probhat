@@ -16,5 +16,6 @@ Bugs & Limitations
 ---
 #
 1. You can't use this layout on Lockscreen or in Password fields.
-2. Cannot write র + ্য together. Because I don't know how to map ZWNJ in this layout configuration (I'll hopefully make a fix, once I figure this out).
+
+**Note: Use `Shift + 6` to write "Zero Width Non Joiner (ZWNJ)" char. Now you can write "র + ্য" together.**
 
