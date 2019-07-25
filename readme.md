@@ -16,6 +16,3 @@ Bugs & Limitations
 ---
 #
 1. You can't use this layout on Lockscreen or in Password fields.
-
-**Note: Use `Shift + 6` to write "Zero Width Non Joiner (ZWNJ)" char. You might need this to write "র + ্য" together.**
-
